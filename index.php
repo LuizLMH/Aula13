@@ -18,12 +18,8 @@
         </div>
         <div class="filha">
             <form action="inserir.php" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome" required>
-                <br><br>
-                <label for="idade">Idade:</label>
-                <input type="number" name="idade" id="idade" min="0" max="110" required>
-                <br><br>
+                <input type="text" name="nome" id="nome" required placeholder="Nome">
+                <input type="number" name="idade" id="idade" min="0" max="110" required placeholder="Idade">
                 <input type="submit" value="Enviar">
             </form>
         </div>

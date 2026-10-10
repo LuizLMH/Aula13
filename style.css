@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 50vh;
+    border: 2px solid blue;
+}
+
+.pai1 a {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.filha {
+    display: flex;
+    width: 75%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 0 10px gray;
+}
+
+.filha input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.filha input[type="submit"] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border-radius: 5px;
+    width: 50%;
+}
