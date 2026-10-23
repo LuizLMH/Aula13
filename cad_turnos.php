@@ -11,9 +11,12 @@
 <body>
     <div class="pai">
         <div class="pai1">
-            <h1>Cadastro de Professores</h1>
+            <h1>Cadastro de Turnos</h1>
             <a href="cad_professores.php">Cadastrar Professores</a>
             <a href="cad_turnos.php">Cadastrar Turnos</a>
+            <a href="listar_professores.php">Listar Professores</a>
+            <a href="listar_alunos.php">Listar Alunos</a>
+            <a href="listar_turnos.php">Listar Turnos</a>
             <a href="index.php">Index</a>
         </div>
         <div class="filha">

@@ -8,6 +8,12 @@
 </head>
 
 <body>
+    <a href="cad_professores.php">Cadastrar Professores</a>
+    <a href="cad_turnos.php">Cadastrar Turnos</a>
+    <a href="listar_professores.php">Listar Professores</a>
+    <a href="listar_alunos.php">Listar Alunos</a>
+    <a href="listar_turnos.php">Listar Turnos</a>
+    <a href="index.php">Index</a>
     <?php
     if (!isset($_POST["turno"])) {
         header("Location: cad_turnos.php");
